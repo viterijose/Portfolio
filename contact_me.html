@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<!-- <link rel="shortcut icon" href="https://lh3.googleusercontent.com/oKsgcsHtHu_nIkpNd-mNCAyzUD8xo68laRPOfvFuO0hqv6nDXVNNjEMmoiv9tIDgTj8=w170"> -->
+<link rel="shortcut icon" href="https://lh3.googleusercontent.com/oKsgcsHtHu_nIkpNd-mNCAyzUD8xo68laRPOfvFuO0hqv6nDXVNNjEMmoiv9tIDgTj8=w170">
 
 <head>
 
@@ -22,7 +22,7 @@
 
 </head>
 
-<body>
+<body background="assets/images/Abstract.jpg">
 
     <div class="container-fluid">
         <div class="row justify-content-between">
@@ -39,21 +39,44 @@
             <div class="col-xs-12">
                 <nav class="navbar navbar-default">
                     <div class="container-fluid">
-                        <h3>About me</h3>
+                        <h3>Contact me</h3>
                         <hr>
-                        <div class="row"></div>
-                        <div class="col-xs-12 ">
-                            <img src="assets/images/PROFILE_768_400px.jpg" class="img-fluid img-thumbnail" alt="Responsive image" />
-                        </div>
-                        <div class="col-xs-12">
-                            <p class="info"> My name is Jose Viteri and ever since I was a kid I dreamed of becoming an inventor.What started
-                                as a child's dream has now become a career, with the knowledge I will acquire from this course
-                                I wish to come closer to inventing, not just electrical or mechanical gadgets, but also websites
-                                and apps that may let me control them.
-                                <br> Besides me dreaming of becoming an inventor, I really enjoy going to the gym, trying out
-                                new restaurants and enjoying a nice glass of beer while watching my two pups play in my backyard.
-                            </p>
-                        </div>
+                        <form>
+
+                            <div class="md-form">
+                                <i class="fa fa-user prefix grey-text"></i>
+                                <input type="text" id="materialFormContactNameEx" class="form-control">
+                                <label for="materialFormContactNameEx">Name</label>
+                            </div>
+                        
+                            <!-- Material input email -->
+                            <div class="md-form">
+                                <i class="fa fa-envelope prefix grey-text"></i>
+                                <input type="email" id="materialFormContactEmailEx" class="form-control">
+                                <label for="materialFormContactEmailEx">Email</label>
+                            </div>
+                            
+                            <!-- Material input subject -->
+                            <div class="md-form">
+                                <i class="fa fa-tag prefix grey-text"></i>
+                                <input type="text" id="materialFormContactSubjectEx" class="form-control">
+                                <label for="materialFormContactSubjectEx">Subject</label>
+                            </div>
+                            
+                            <!-- Material textarea message -->
+                            <div class="md-form">
+                                <i class="fa fa-pencil prefix grey-text"></i>
+                                <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+                                <label for="materialFormContactMessageEx">Your message</label>
+                            </div>
+                        
+                            <div class="text-center mt-4">
+                                <button class="btn btn-outline-secondary" type="submit">Submit<i class="fa fa-paper-plane-o ml-2"></i></button>
+                            </div>
+                        </form>
+                        <!-- Material form contact -->
+                                              
+                                       
                     </div>
             </div>
             </nav>

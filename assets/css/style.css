@@ -1,7 +1,6 @@
-html , body{
-    /* background: url(https://s-media-cache-ak0.pinimg.com/originals/69/98/fd/6998fd867b0eaed370b95607cb8be8a6.jpg) no-repeat center center fixed; */
-    height:100%;
-    width:100%;
+body{
+    background-image: cover;
+
     margin:0;
 }
 .navbar-header{
@@ -15,6 +14,9 @@ html , body{
     font-size:  60px;
     height: 118px;
     width: 100%;
+}
+.intro{
+    height: 150px;
 }
 
  #link{
@@ -79,21 +81,18 @@ hr{
     border-top-color: rgb(15, 163, 138);
 }
 #img4{
-    width: 90%;
-    margin: 5%;
+    width: 70%;
 }
-#game {
-    font-family: 'Georgia';
-    font-size: 500%;
+h4{
+
+    font-size: 300%;
     color: whitesmoke;
-    text-align: center;
-    line-height: 90px;
-    height: 90px;
-    width: 90%;
     background-color: rgb(15, 163, 138);
+    width: 70%;
+
     position: relative;
-    bottom: 150px;
-    left: 30px;
+    left: 52px;
+    bottom: 100px;
 }
 
 .img-circle{
@@ -111,7 +110,7 @@ hr{
     text-align: center;
 
 }
-.col-xs-6{
+.col-xs-6, .col-xs-12{
     text-align: center;
 }
 .page-footer{
