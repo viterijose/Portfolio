@@ -4,14 +4,6 @@ html , body{
     width:100%;
     margin:0;
 }
-.container{
-    margin-bottom: 50px;
-    min-height: 100%;
-}
-.container1{
-    margin-bottom: 50px;
-
-}
 .navbar-header{
     background-color:  rgb(37, 140, 209);
     font-family: 'Lobster', cursive;
