@@ -106,7 +106,7 @@ hr{
 
 .img-circle{
     background-color: rgb(142, 137, 212);
-    border: solid black;
+    border: solid #337ab7;;
     border-radius: 15%;
 }
 #initial{
