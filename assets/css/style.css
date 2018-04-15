@@ -29,7 +29,7 @@ html , body{
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 50px;
-    padding:10px 40px 10px 40px;
+    
     font-size:32px;
 } 
 #link1{
@@ -42,12 +42,11 @@ html , body{
 h3{
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: bolder;
-    
     font-size: 40px;
     width: 208px;
     color: rgb(37, 140, 209);
     text-align: left;
-    margin:30px;
+    margin: 10px 10px 10px 30px;
 
 }
 .float-left{
@@ -108,19 +107,22 @@ hr{
 .img-circle{
     background-color: rgb(142, 137, 212);
     border: solid black;
+    border-radius: 15%;
 }
 #initial{
     padding:20px;
 }
 .Description{
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
     text-align: center;
-    color: white;
+
 }
 .col-xs-6{
     text-align: center;
 }
-
+.page-footer{
+    background-color: rgba(233, 232, 232, 0.925);
+}
 
