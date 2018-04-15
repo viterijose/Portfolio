@@ -57,11 +57,11 @@ h3{
 .info{
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
-    line-height: 40px;
+    line-height: 18px;
     font-weight: lighter;
     color: rgb(143,144,146);
-    text-align: justify;
-    padding: 30px;
+    /* text-align: justify; */
+    padding: 10px;
     float: left;
 }
 hr{
